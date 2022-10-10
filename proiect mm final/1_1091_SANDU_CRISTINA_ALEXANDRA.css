@@ -1,0 +1,60 @@
+#crisCanvas{
+	border-style : solid;
+	border-color : pink;
+	border-width : 7px;
+	
+	
+}
+
+#controls{
+	position:absolute;
+	top: 830px;
+	left: 20px;
+	border: 3px double red;
+	background-color: #FFCCE5;
+	border-radius:10px;
+	display:flex;
+	padding:20px;
+	margin-bottom:20px;
+	border-bottom: 5px double red;
+	
+}
+.widthChanger{
+	font-weight: bold;
+	text-decoration: overline;
+	color:#AB0028;
+	margin-left:5px;
+	margin-right:5px;
+}
+.colorChanger{
+	font-weight: bold;
+	text-decoration: overline;
+	color:#AB0028;
+	margin-left:5px;
+	margin-right:5px;
+}
+.backgroundChanger{
+	font-weight: bold;
+	text-decoration: overline;
+	color:#AB0028;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.shapeChanger{
+	font-weight: bold;
+	text-decoration: overline;
+	color:#AB0028;
+	
+	margin-left:5px;
+}
+.buttons{
+	background-color: #AB0028;
+	color:white;
+	border:none;
+	height:30px;
+	margin-left:20px;
+	font-size: 16px;
+	border-radius:8px;
+}

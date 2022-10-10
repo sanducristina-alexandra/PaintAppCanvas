@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Proiect multimedia</title>
+	<link rel="stylesheet" href="1_1091_SANDU_Cristina_Alexandra.css">
+	
+  </head>
+  <body>
+    <canvas id="crisCanvas" width = 1200 height = 800></canvas>
+	<div id="controls">
+	<div class="widthChanger">
+	      <p><label>Line width: <input id="lineWidth" type="range" value=1 step=1 min=1 max=50></label></p>
+	</div>
+	<div class="colorChanger">
+	      <p><label>Fill color: <input id="fillColor" type="color" value="#00FF80"></label></p>
+	</div>
+	<div class="colorChanger">
+	      <p><label>Stroke color: <input id="strokeColor" type="color" value="#00FF80"></label></p>
+	</div>
+	<div class="backgroundChanger">
+	      <p><label>Background color: <input id="backgroundColor" type="color" value="#FFFFFF"></label></p>
+	</div>
+	<div class="shapeChanger">
+	<p><input id="line" type="radio" name="shape" value="line" checked= "checked">Line</p>
+	<p><input id="circle" type="radio" name="shape" value="circle">Circle</p>
+	<p><input id="pen" type="radio" name="shape" value="pen">Pen</p>
+	<p><input id="ellipse" type="radio" name="shape" value="ellipse">Ellipse</p>
+   
+	</div>
+	<div>
+	<button class = "buttons" id="clearButton">Clear all</button>
+	<button class = "buttons" id="savePNGButton">Save PNG</button>
+	<button class = "buttons" id="saveSVGButton">Save SVG</button>
+	</div>
+	</div>
+	
+	<script src="1_1091_SANDU_Cristina_Alexandra.js"></script>
+  </body>
+</html>
